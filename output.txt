@@ -1,0 +1,20 @@
+program start{
+	class: Operator / class parent: Test / isEntry: false {
+		class method: Operator / return type: int / type: public {
+			parameter list: []
+		}
+		class method: subtractor / return type: int / type: public {
+			parameter list: [name : b / type : int , name : b / type : int]
+		}
+		class method: arrCollector / return type: int / type: public {
+			parameter list: [name : arr / type : int[]]
+		}
+		class method: comparator / return type: string / type: public {
+			parameter list: [name : b / type : int , name : b / type : int]
+		}
+	}
+	class: MainClass / class parent: none / isEntry: true {
+		main method / type: int {
+		}
+	}
+}

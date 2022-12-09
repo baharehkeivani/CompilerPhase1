@@ -1,4 +1,4 @@
-package gen;// Generated from java-escape by ANTLR 4.11.1
+// Generated from java-escape by ANTLR 4.11.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -149,15 +149,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_program; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterProgram(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterProgram(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitProgram(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitProgram(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitProgram(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitProgram(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -240,15 +240,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classDeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterClassDeclaration(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterClassDeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitClassDeclaration(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitClassDeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitClassDeclaration(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitClassDeclaration(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -330,15 +330,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_entryClassDeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterEntryClassDeclaration(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterEntryClassDeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitEntryClassDeclaration(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitEntryClassDeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitEntryClassDeclaration(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitEntryClassDeclaration(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -389,15 +389,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_fieldDeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterFieldDeclaration(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterFieldDeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitFieldDeclaration(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitFieldDeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitFieldDeclaration(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitFieldDeclaration(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -464,15 +464,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_access_modifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterAccess_modifier(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterAccess_modifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitAccess_modifier(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitAccess_modifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitAccess_modifier(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitAccess_modifier(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -540,15 +540,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_methodDeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterMethodDeclaration(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterMethodDeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitMethodDeclaration(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitMethodDeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitMethodDeclaration(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitMethodDeclaration(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -699,15 +699,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_closedStatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterClosedStatement(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterClosedStatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitClosedStatement(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitClosedStatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitClosedStatement(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitClosedStatement(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -841,15 +841,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_closedConditional; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterClosedConditional(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterClosedConditional(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitClosedConditional(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitClosedConditional(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitClosedConditional(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitClosedConditional(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -945,15 +945,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_openConditional; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterOpenConditional(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterOpenConditional(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitOpenConditional(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitOpenConditional(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitOpenConditional(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitOpenConditional(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -999,7 +999,7 @@ public class ToorlaParser extends Parser {
 				setState(217);
 				_errHandler.sync(this);
 				_alt = getInterpreter().adaptivePredict(_input,13,_ctx);
-				while ( _alt!=2 && _alt!= ATN.INVALID_ALT_NUMBER ) {
+				while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
 					if ( _alt==1 ) {
 						{
 						{
@@ -1105,15 +1105,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_openStatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterOpenStatement(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterOpenStatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitOpenStatement(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitOpenStatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitOpenStatement(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitOpenStatement(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1170,15 +1170,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatement(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatement(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatement(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatement(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1239,15 +1239,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementVarDef; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementVarDef(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementVarDef(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementVarDef(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementVarDef(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementVarDef(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementVarDef(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1317,15 +1317,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementBlock; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementBlock(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementBlock(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementBlock(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementBlock(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementBlock(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementBlock(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1377,15 +1377,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementContinue; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementContinue(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementContinue(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementContinue(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementContinue(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementContinue(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementContinue(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1422,15 +1422,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementBreak; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementBreak(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementBreak(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementBreak(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementBreak(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementBreak(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementBreak(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1471,15 +1471,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementReturn; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementReturn(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementReturn(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementReturn(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementReturn(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementReturn(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementReturn(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1525,15 +1525,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementClosedLoop; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementClosedLoop(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementClosedLoop(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementClosedLoop(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementClosedLoop(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementClosedLoop(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementClosedLoop(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1583,15 +1583,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementOpenLoop; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementOpenLoop(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementOpenLoop(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementOpenLoop(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementOpenLoop(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementOpenLoop(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementOpenLoop(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1638,15 +1638,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementWrite; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementWrite(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementWrite(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementWrite(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementWrite(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementWrite(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementWrite(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1697,15 +1697,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementAssignment; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementAssignment(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementAssignment(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementAssignment(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementAssignment(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementAssignment(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementAssignment(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1750,15 +1750,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementInc; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementInc(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementInc(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementInc(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementInc(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementInc(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementInc(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1801,15 +1801,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementDec; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterStatementDec(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterStatementDec(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitStatementDec(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitStatementDec(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitStatementDec(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitStatementDec(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1851,15 +1851,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpression(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpression(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpression(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpression(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1901,15 +1901,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionOr; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionOr(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionOr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionOr(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionOr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionOr(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionOr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1954,15 +1954,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionOrTemp; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionOrTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionOrTemp(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionOrTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionOrTemp(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionOrTemp(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionOrTemp(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2027,15 +2027,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionAnd; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionAnd(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionAnd(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionAnd(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionAnd(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionAnd(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionAnd(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2080,15 +2080,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionAndTemp; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionAndTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionAndTemp(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionAndTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionAndTemp(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionAndTemp(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionAndTemp(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2154,15 +2154,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionEq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionEq(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionEq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionEq(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionEq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionEq(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionEq(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2208,15 +2208,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionEqTemp; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionEqTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionEqTemp(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionEqTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionEqTemp(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionEqTemp(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionEqTemp(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2300,15 +2300,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionCmp; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionCmp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionCmp(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionCmp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionCmp(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionCmp(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionCmp(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2354,15 +2354,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionCmpTemp; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionCmpTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionCmpTemp(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionCmpTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionCmpTemp(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionCmpTemp(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionCmpTemp(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2448,15 +2448,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionAdd; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionAdd(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionAdd(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionAdd(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionAdd(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionAdd(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionAdd(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2502,15 +2502,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionAddTemp; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionAddTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionAddTemp(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionAddTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionAddTemp(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionAddTemp(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionAddTemp(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2598,15 +2598,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionMultMod; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionMultMod(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionMultMod(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionMultMod(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionMultMod(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionMultMod(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionMultMod(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2653,15 +2653,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionMultModTemp; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionMultModTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionMultModTemp(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionMultModTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionMultModTemp(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionMultModTemp(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionMultModTemp(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2760,15 +2760,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionUnary; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionUnary(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionUnary(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionUnary(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionUnary(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionUnary(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionUnary(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2851,15 +2851,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionMethods; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionMethods(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionMethods(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionMethods(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionMethods(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionMethods(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionMethods(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2913,15 +2913,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionMethodsTemp; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionMethodsTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionMethodsTemp(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionMethodsTemp(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionMethodsTemp(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionMethodsTemp(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionMethodsTemp(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3077,15 +3077,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionOther; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterExpressionOther(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterExpressionOther(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitExpressionOther(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitExpressionOther(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionOther(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitExpressionOther(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3254,15 +3254,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_toorlaType; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterToorlaType(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterToorlaType(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitToorlaType(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitToorlaType(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitToorlaType(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitToorlaType(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3311,15 +3311,15 @@ public class ToorlaParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_singleType; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).enterSingleType(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).enterSingleType(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof ToorlaListener) ((ToorlaListener)listener).exitSingleType(this);
+			if ( listener instanceof ToorlaListener ) ((ToorlaListener)listener).exitSingleType(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof ToorlaVisitor) return ((ToorlaVisitor<? extends T>)visitor).visitSingleType(this);
+			if ( visitor instanceof ToorlaVisitor ) return ((ToorlaVisitor<? extends T>)visitor).visitSingleType(this);
 			else return visitor.visitChildren(this);
 		}
 	}

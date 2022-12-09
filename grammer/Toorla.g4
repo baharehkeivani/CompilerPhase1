@@ -25,7 +25,7 @@ access_modifier:
 
 methodDeclaration:
     methodAccessModifier = access_modifier? 'function' methodName = ID
-    '(' ( param1 = ID ':' typeP1 = toorlaType (',' param2 = ID ':' typeP2 = toorlaType)*)?')'
+    '(' ( param = ID ':' typeP = toorlaType (',' param = ID ':' typeP = toorlaType)*)?')'
     'returns' t = toorlaType
     ':' (s = statement)* 'end'
     ;

@@ -16,7 +16,7 @@ import java.io.IOException;
 
 public class Compiler {
     public static void main(String[] args) throws IOException {
-        CharStream stream = CharStreams.fromFileName("./sample/input.txt");
+        CharStream stream = CharStreams.fromFileName("./sample/input.trl");
         ToorlaLexer lexer = new ToorlaLexer(stream);
         TokenStream tokens = new CommonTokenStream(lexer);
         ToorlaParser parser = new ToorlaParser(tokens);

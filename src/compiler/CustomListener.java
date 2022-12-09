@@ -7,34 +7,71 @@ import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 import java.io.BufferedWriter;
+import java.io.IOException;
 
 
 public class CustomListener implements ToorlaListener {
 
     private BufferedWriter out;
+    private boolean isEntry = false ;
+    private  String current_class_name = "";
 
-    public CustomListener(BufferedWriter out)  {
+    public CustomListener(BufferedWriter out) {
         this.out = out;
     }
+
     public void enterProgram(ToorlaParser.ProgramContext ctx) {
+        try {
+            out.write("program start{\n");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void exitProgram(ToorlaParser.ProgramContext ctx) {
+        try {
+            out.write("}");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void enterClassDeclaration(ToorlaParser.ClassDeclarationContext ctx) {
+        current_class_name = ctx.className.getText();
+        String str;
+        if (ctx.classParent != null) {
+            str = String.format("\tclass: %s / class parent: %s / isEntry: %b {\n",
+                    current_class_name, ctx.classParent.getText(), isEntry);
+        } else {
+            str = String.format("\tclass: %s / class parent: none / isEntry: %b {\n",
+                    current_class_name, isEntry);
+        }
+        isEntry = false;
+        try {
+            out.write(str);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void exitClassDeclaration(ToorlaParser.ClassDeclarationContext ctx) {
+        try {
+            out.write("\t}\n");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void enterEntryClassDeclaration(ToorlaParser.EntryClassDeclarationContext ctx) {
+        isEntry = true;
     }
 
     public void exitEntryClassDeclaration(ToorlaParser.EntryClassDeclarationContext ctx) {
+        //DONE : handled in class declaration
     }
 
     public void enterFieldDeclaration(ToorlaParser.FieldDeclarationContext ctx) {
+
     }
 
     public void exitFieldDeclaration(ToorlaParser.FieldDeclarationContext ctx) {
@@ -47,9 +84,47 @@ public class CustomListener implements ToorlaListener {
     }
 
     public void enterMethodDeclaration(ToorlaParser.MethodDeclarationContext ctx) {
+        String method_name = ctx.methodName.getText();
+        String declare_str;
+        String param_str = "";
+        //class methods and class constructor
+        if(ctx.methodAccessModifier != null){
+            String type;
+            if(method_name == current_class_name){
+                type = "constructor";
+            }
+            else{
+                type = "method";
+            }
+            declare_str = String.format("\t\tclass %s: %s / return type: %s / type: %s {\n",
+                    type, method_name, ctx.t.getText(),  ctx.methodAccessModifier.getText());
+            //parameters
+            param_str = "\t\t\tparameter list: [";
+            for (int i= 1 ;  i < ctx.toorlaType().toArray().length ;i++) {
+                param_str += String.format("name : %s / type : %s" , ctx.param.getText() , ctx.typeP.getText());
+                if ( i != ctx.toorlaType().toArray().length-1 ){
+                    param_str += " , ";
+                }
+            }
+            param_str += "]\n";
+        }
+        else {
+            declare_str = String.format("\t\tmain method / type: %s {\n", ctx.t.getText());
+        }
+        try {
+            out.write(declare_str);
+            out.write(param_str);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void exitMethodDeclaration(ToorlaParser.MethodDeclarationContext ctx) {
+        try {
+            out.write("\t\t}\n");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void enterClosedStatement(ToorlaParser.ClosedStatementContext ctx) {
