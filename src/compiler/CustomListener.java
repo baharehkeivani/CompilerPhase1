@@ -6,8 +6,16 @@ import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
+import java.io.BufferedWriter;
+
 
 public class CustomListener implements ToorlaListener {
+
+    private BufferedWriter out;
+
+    public CustomListener(BufferedWriter out)  {
+        this.out = out;
+    }
     public void enterProgram(ToorlaParser.ProgramContext ctx) {
     }
 
