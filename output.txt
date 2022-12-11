@@ -4,13 +4,13 @@ program start{
 			parameter list: []
 		}
 		class method: subtractor / return type: int / type: public {
-			parameter list: [name : b / type : int , name : b / type : int]
+			parameter list: [type : int / name : a , type : int / name : b]
 		}
 		class method: arrCollector / return type: int / type: public {
-			parameter list: [name : arr / type : int[]]
+			parameter list: [type : int / name : arr]
 		}
 		class method: comparator / return type: string / type: public {
-			parameter list: [name : b / type : int , name : b / type : int]
+			parameter list: [type : int / name : a , type : int / name : b , type : string / name : c]
 		}
 	}
 	class: MainClass / class parent: none / isEntry: true {

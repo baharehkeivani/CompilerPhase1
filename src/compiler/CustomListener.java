@@ -8,13 +8,14 @@ import org.antlr.v4.runtime.tree.TerminalNode;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.util.List;
 
 
 public class CustomListener implements ToorlaListener {
 
     private BufferedWriter out;
-    private boolean isEntry = false ;
-    private  String current_class_name = "";
+    private boolean isEntry = false;
+    private String current_class_name = "";
 
     public CustomListener(BufferedWriter out) {
         this.out = out;
@@ -88,27 +89,28 @@ public class CustomListener implements ToorlaListener {
         String declare_str;
         String param_str = "";
         //class methods and class constructor
-        if(ctx.methodAccessModifier != null){
+        if (ctx.methodAccessModifier != null) {
             String type;
-            if(method_name == current_class_name){
+            if (method_name == current_class_name) {
                 type = "constructor";
-            }
-            else{
+            } else {
                 type = "method";
             }
             declare_str = String.format("\t\tclass %s: %s / return type: %s / type: %s {\n",
-                    type, method_name, ctx.t.getText(),  ctx.methodAccessModifier.getText());
+                    type, method_name, ctx.t.getText(), ctx.methodAccessModifier.getText());
             //parameters
+            int param_length = ctx.toorlaType().toArray().length; //n
+            List<ToorlaParser.ToorlaTypeContext> types = ctx.toorlaType(); // [n] -> 1 ta n-1 param types
+            List<TerminalNode> ids = ctx.ID(); // [n] -> 2 ta n param names
             param_str = "\t\t\tparameter list: [";
-            for (int i= 1 ;  i < ctx.toorlaType().toArray().length ;i++) {
-                param_str += String.format("name : %s / type : %s" , ctx.param.getText() , ctx.typeP.getText());
-                if ( i != ctx.toorlaType().toArray().length-1 ){
+            for (int i = 1; i < param_length; i++) {
+                param_str += String.format("type : %s / name : %s", types.get(i).getText(), ids.get(i).getText());
+                if (i != ctx.toorlaType().toArray().length - 1) {
                     param_str += " , ";
                 }
             }
             param_str += "]\n";
-        }
-        else {
+        } else {
             declare_str = String.format("\t\tmain method / type: %s {\n", ctx.t.getText());
         }
         try {

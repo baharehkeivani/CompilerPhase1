@@ -13,7 +13,7 @@ class Operator inherits Test:
             self.result = self.result + arr[counter];
         return self.result;
     end
-    public function comparator(a:int , b: int) returns string:
+    public function comparator(a:int , b: int , c:int) returns string:
         if(a<b)
         begin
             var alaki = 3;
